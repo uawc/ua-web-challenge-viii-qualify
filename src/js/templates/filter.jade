@@ -1,0 +1,19 @@
+.row
+    .col-md-4.text-center.col-md-offset-2
+        label(for="category") Slider category
+    .col-md-4.text-center.filter-slides-fn
+        label(for="filter-slides") Slider filter
+.row
+    .col-md-4.col-md-offset-2
+        select.category.form-control#category
+            option(value="sports") Sports
+            option(value="animals") Animals
+            option(value="city") City
+            option(value="technics") Technics
+            option(value="nature") Nature
+            option(value="cats") Cats
+
+    .col-md-4.filter-slides-fn
+        select.filter-slides.form-control#filter-slides
+            option(value="mock") From mock
+            option(value="favorites") From favorites

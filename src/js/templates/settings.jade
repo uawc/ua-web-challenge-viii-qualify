@@ -1,0 +1,23 @@
+button.btn.btn-primary.btn-lg.glyphicon.glyphicon-cog.col-md-offset-11.col-md-1.settings(type="button", data-toggle="modal", data-target="#settings")
+
+.modal.fade#settings(tabindex="-1", role="dialog", aria-labelledby="myModalLabel")
+    .modal-dialog(role="document")
+        .modal-content
+            .modal-header
+                h4.modal-title Slider settings
+            .modal-body
+                .row
+                    .col-md-6
+                        input.range(type="range", data-type="width", name="range", min="0", max="1920", step="10", value="#{width}")
+                    .input-group.col-md-4
+                        .input-group-addon slider width
+                        input.form-control.range-input(type="text", disabled, value="#{width}")
+                .row
+                    .col-md-6
+                        input.range(type="range", data-type="height", name="range", min="0", max="1920", step="10", value="#{height}")
+                    .input-group.col-md-4
+                        .input-group-addon slider height
+                        input.form-control.range-input(type="text", disabled, value="#{height}")
+            .modal-footer
+                button.btn.btn-default(type="button", data-dismiss="modal")  Close
+                button.btn.btn-primary.save(type="button")  Save changes

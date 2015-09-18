@@ -1,0 +1,19 @@
+{
+  "name": "UAWC-VIII",
+  "version": "0.0.1",
+  "author": "",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "require-dir": "latest",
+    "grunt-babel": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-jade": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}

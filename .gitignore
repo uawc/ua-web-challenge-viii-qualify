@@ -1,0 +1,13 @@
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directory
+node_modules
+
+# Grunt generated root
+app
+
+# Idea workspace
+*.iws
+.idea
+*.iml
