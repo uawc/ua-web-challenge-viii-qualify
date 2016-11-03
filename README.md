@@ -4,8 +4,8 @@
 
 ```sh
 cd src
-npm install -g grunt-cli bower
-npm install && bower install
+npm i -g grunt-cli bower
+npm i && bower install
 ```
 
 Congratulations! Installation has been completed. Now you are able to launch this app
